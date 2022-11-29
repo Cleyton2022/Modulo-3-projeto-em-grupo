@@ -1,0 +1,183 @@
+/* CAIXA QUE REGE TUDO */
+.footer {
+    color: #ffffff;
+  }
+  
+  
+  
+  /* REDES SOCIAIS */
+  
+  .socialList {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+  
+  }
+  
+  .socialList li {
+    margin: 0 1em;
+  }
+  
+  .socialList li:hover {
+    transition: 0.5s;
+    color: #000000;
+  }
+  
+  .socialList svg {
+    font-size: 1.5em;
+    cursor: pointer;
+  }
+  
+  /* CAIXA DE TEXTO */
+  .footerColLinkDif {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    color: #ffffff;
+    text-decoration: none;
+    cursor: default;
+  }
+  
+  .footerCol .formSub input {
+    margin: 10px 0;
+    padding: 10px 46px 10px 10px;
+    font-size: 12px;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    color: #ffffff;
+    background-color: #ffffff;
+  }
+  
+  .footerCol .formSub input::placeholder {
+    color: #0f0a0a;
+  }
+  
+  .footerCol .formSub button {
+    margin-top: 10%;
+    padding: 5px 15px 10px 12px;
+    font-size: 13px;
+    border: none;
+    cursor: pointer;
+    color: #000000;
+    border-radius: 3px;
+    font-weight: bold;
+    background-color: #ffffff;
+  }
+  
+  .footerCol .formSub button:hover {
+    color: #c51818;
+  }
+  
+  
+  /* PARTE DOS CRÉDITOS */
+  
+  
+  .copyRightDiv {
+    background-color: #000000;
+    padding: 16px;
+    text-align: center;
+  }
+  
+  .copyRight span {
+    font-weight: bold;
+    color: #ffffff;
+    font-family: 'Bree Serif';
+  }
+  
+  
+  /* TODA LISTA DO RODAPÉ */
+  .containerFooter {
+    padding: 30px 30px 30px 30px;
+    background-color: #353535;
+  
+  }
+  
+  .rowFooter {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .footerCol {
+    width: 25%;
+    padding: 0 15px;
+  }
+  
+  .footerCol h4 {
+    font-family: 'Bree Serif';
+    font-size: 18px;
+    color: #000000;
+    margin-bottom: 20px;
+    font-weight: 500;
+  }
+  
+  .footerCol ul {
+    list-style: none;
+  }
+  
+  .footerCol ul li {
+    margin: 10px 0;
+  }
+  
+  .footerColLink {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    color: #000000;
+    text-decoration: none;
+    transition: all 0.3s ease;
+  }
+  
+  .footerColLink:hover {
+    color: #ffffff;
+    padding-left: 10px;
+    opacity: 1;
+  
+  }
+  
+  
+  /* NO MOBILE */
+  
+  @media (max-width:800px) {
+    .footerCol {
+      margin-bottom: 30px;
+  
+    }
+  
+    @media (max-width:600px) {
+      .footerCol {
+        width: 100%;
+      }
+  
+      .socialList li:hover {
+        color: inherit;
+      }
+  
+      .footerColLink:hover {
+        padding-left: 0;
+        color: inherit;
+      }
+  
+      .footerColLink {
+        transition: none;
+      }
+    }
+  
+    .socialList {
+      margin-top: 3%;
+      display: flex;
+      justify-content: center;
+      list-style-type: none;
+    }
+  
+    .socialList li {
+      margin: 0 1em;
+    }
+  
+    .socialList svg {
+      font-size: 1.5em;
+      cursor: disabled;
+    }
+    .footerCol .formSub button {
+      margin: 11px;
+    }
+  }

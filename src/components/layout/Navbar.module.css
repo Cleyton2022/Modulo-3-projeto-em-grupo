@@ -1,0 +1,60 @@
+#logoCinema {
+    width: 30%;
+    border-radius: 10px;
+    box-shadow: 1px 1px 11px 4px #000000bd;
+padding-left: 50px;
+    
+}
+
+#logoCinema:hover{
+background-color: rgb(0, 0, 0);
+
+}
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: #353535;
+    padding: 1;
+    font-weight: bold;
+    
+
+}
+
+.listNav {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    
+}
+
+
+
+
+.item {
+    margin-right: 4em;
+}
+
+.item a {
+    color: #000000;
+    text-decoration: none;
+    transition: 0.5s;
+    opacity: 1;
+    
+}
+.item a:hover {
+    color: #ffffff;
+
+}
+
+@media (max-width: 750px) {
+   
+    .navbar {
+        padding: 0px;
+    }
+
+    .listNav {
+        display:unset;
+    }
+}
