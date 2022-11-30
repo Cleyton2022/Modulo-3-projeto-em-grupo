@@ -18,7 +18,7 @@ function Livros() {
                         <img src="https://tocalivros.s3.amazonaws.com/images/audiolivros/350/a/-/a-odisseia-homero-1048714.jpg"
                             alt=" Odisseia, Homero" />
                         <div className="dsmovie-card-description">
-                            <h3> Odisseia</h3>
+                            <h3> A Odisseia</h3>
                             <p>Odisseia é um dos dois principais poemas épicos da Grécia Antiga, atribuídos a Homero. É uma sequência da Ilíada, outra obra creditada ao autor, e é um poema fundamental no cânone ocidental. Historicamente, é a segunda — a primeira sendo a própria Ilíada — obra da literatura ocidental.</p>
                             <div className="dsmovie-card-description-bottom">
                                 <h4>Autor: Homero</h4>
@@ -58,35 +58,9 @@ function Livros() {
                     </div>
                 </div>
 
-                <div className="col-sm-6 col-lg-4 col-x1-3 mb-3">
-                    <div className="dsmovie-card">
-                        <img src="https://images-americanas.b2w.io/produtos/111561370/imagens/livro-o-conde-de-monte-cristo-edicao-bolso-de-luxo/111561370_1_xlarge.jpg"
-                            alt="O Conde de Monte Cristo (Alexandre Dumas)" />
-                        <div className="dsmovie-card-description">
-                            <h3>O Conde de Monte Cristo </h3>
-                            <p>Dirigido por Spike Lee. Épico biográfico do controverso e influente líder nacionalista negro, desde o início de sua carreira e carreira de gângster, até seu ministério como membro da nação do Islã.</p>
-                            <div className="dsmovie-card-description-bottom">
-                                <h4>Autor: Alexandre Dumas</h4>
-                                <h5>Gênero: Romance, Série, Romance de amor, Ficção histórica, Ficção de aventura</h5>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+            
 
-                <div className="col-sm-6 col-lg-4 col-x1-3 mb-3">
-                    <div className="dsmovie-card">
-                        <img src="https://m.media-amazon.com/images/I/61fD+SMxHeL.jpg"
-                            alt="Um Conto de Duas Cidades (Charles Dickens)" />
-                        <div className="dsmovie-card-description">
-                            <h3>Um Conto de Duas Cidades</h3>
-                            <p>A Tale of Two Cities é um romance histórico de autoria de Charles Dickens lançado em 1859, que trata de temas como culpa, vergonha e retribuição. A principal fonte para Dickens escrever o livro com fundo histórico é The French Revolution, de Thomas Carlyle.</p>
-                            <div className="dsmovie-card-description-bottom">
-                                <h4>Autor: Charles Dickens</h4>
-                                <h5>Gênero: Romance, Ficção histórica, Romance histórico</h5>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+               
 
                 <div className="col-sm-6 col-lg-4 col-x1-3 mb-3">
                     <div className="dsmovie-card">

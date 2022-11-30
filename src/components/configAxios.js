@@ -1,11 +1,11 @@
 import axios from "axios";
 
-const blogFetch = axios.create ({
-    baseURL : "https://lado-c.onrender.com/",
+const livrariaDigita = axios.create ({
+    baseURL : "https://projeto-json-dp0k.onrender.com",
     headers: {
         "Content-Type": "application/json",
     },
     
 });
 
-export default blogFetch;
+export default livrariaDigita;

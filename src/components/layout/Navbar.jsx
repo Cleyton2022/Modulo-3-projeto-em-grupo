@@ -12,8 +12,7 @@ function Navbar() {
         <ul className={styles.listNav}>
           <li className={styles.item}><Link to="/livros">Livros</Link></li>
           <li className={styles.item}><Link to="/genero">Gêneros</Link></li>
-          <li className={styles.item}><Link to="/ingressos">Autores</Link></li>
-          <li className={styles.item}><Link to="/sugestoes">Pedidos</Link></li>
+          <li className={styles.item}><Link to="/buscas">Buscas</Link></li>
         </ul>
       </Container>
     </nav>

@@ -1,5 +1,5 @@
 #imgPrin{
-width: 2114px;
+width: 1470px;
 height: 800px;
 padding-top: 15px;
 display: inline-flex;
@@ -13,11 +13,11 @@ justify-content: space-between;
 #sb{
 color: rgb(255, 255, 255);
 background-color: black;
-width: 2025px;
+width: 1400px;
 }
 
 #obj{
 color: rgb(0, 0, 0);
 text-align: center;
-padding-left: 810px;
+padding-left: 100px;
 }

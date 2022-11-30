@@ -1,15 +1,17 @@
-.newPost h2 {
-    text-align: center;
-    margin-bottom: 1rem;
-    color: #FFA300;
-    text-shadow: 1px 1px 1px #121212;
-    font-size: 29px;
-}
 
+    h2{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 35px;
+    }
+    h2:hover{
+        color:#51a313;
+    }
 form {
     max-width: 500px;
     width: 100%;
     margin: 0 auto;
+    
 }
 
 .formControl {
@@ -21,18 +23,17 @@ form {
 .formControl label {
     margin-bottom: 0.5rem;
     margin-top: 0.5rem;
-    color: #231f1f;
-    text-shadow: 2px 2px 2px #FFA300;
+    color: #121212;
 }
 
 .formControl input,
 .formControl textarea {
     font-size: 12px;
-    border: 2px solid #231f1f;
-    color: #231f1f;
-    background-color: #c2c2c2;
+    border: 2px solid #87f57f;
+    color: #080808;
+    background-color: #f0eeee;
     padding: .5rem;
-    border-radius: 5px;
+    border-radius: 15px;
     margin-top: 2%;
     margin-bottom: 2%;
 
@@ -40,7 +41,6 @@ form {
 .formControl input::placeholder,
 .formControl textarea::placeholder {
     color: rgba(116, 74, 0, 0.463);
-
 }
 
 .formControl button {
@@ -50,12 +50,12 @@ form {
     font-size: 15px;
     border: none;
     cursor: pointer;
-    color: #c2c2c2;
-    border-radius: 3px;
-    background-color: #231f1f;
+    color: #fff5f5;
+    border-radius: 15px;
+    background-color: #0f1011;
 }
 
 .formControl button:hover {
-    color: #FFA300;
+    color: #6fff00;
 
 }

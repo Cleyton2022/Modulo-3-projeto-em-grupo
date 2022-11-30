@@ -15,8 +15,8 @@ border: 1px solid rgb(0, 0, 0);
 
 
 .dsmovie-card img{
-width: 260px;
-height: 386.65px;
+width: 241px !important;
+height: 285.6px;
 border: 1px solid rgb(255, 255, 255);
 }
 
@@ -44,7 +44,7 @@ height: 55px;
             color: rgb(255, 255, 255);
             border: 1px solid rgb(255, 255, 255);
             opacity: 1;
-            height: 260px;
+            height: 300px;
             }
             
 
